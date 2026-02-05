@@ -1,1 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Noto Serif Thai', serif;
+  background: #f5f6f4;
+  color: #2e2e2e;
+}
 
+.hero {
+  height: 100vh;
+  background: url("../assets/images/hero.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: .6rem 1.2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.intro {
+  padding: 4rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: .9rem;
+  opacity: .6;
+}
